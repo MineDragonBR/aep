@@ -14,7 +14,7 @@ public class App
     	
     	
     	RepositorioDeAvaliacoes repo = new RepositorioDeAvaliacoes();
-    	repo.adiconar(av1);
+    	repo.adiconar(avaliacao1);
     	
     	
     	Aluno[] aprovadosEmAlgoritmos = repo.obterAprovados(algoritmos);

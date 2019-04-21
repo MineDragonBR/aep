@@ -6,12 +6,13 @@ public class Avaliacao {
 	private Disciplina disciplina;
 	
 public Avaliacao(Aluno aluno, Disciplina disciplina, float nota ) {
+	this.nota = nota;
 	
 }
 	
 // METODO RETORNO NOTA	
 public float getNota() {
-	return nota;
+	return this.nota;
 }
 
 // METODO RETORNO DISCIPLINA
